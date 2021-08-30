@@ -24,5 +24,5 @@ For each learning model that was used the following information was extracted.
 Here are the results for each model:
 
 ### Random OverSampler
-
+![Random_OverSampling.png](Images/Random_OverSampling.png)
 

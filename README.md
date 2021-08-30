@@ -35,25 +35,25 @@ Here are the results for each model:
 - Precision: .01 for predicting high risk loans and 100% for predicting low risk loans.  These numbers tell very differenct stories.  First, it tells us the model predicted a lot of high risk loans that were not actually high risk (this is the .01 number).  The model also, however, was very good at predicting loans that were low risk as it was correct almost 100(This was rounded up from 99.6) percent of the time.
 - Sensitivity: .72 and .52.  This tells us that of the high risk loans in the data set, the model predicted high or low correctly 72 percent of the time.  On the other hand, the model was only successful at correctly predicting the low risk loans 52 percent of the time.
 
-### Random OverSampler
+### Cluster Centroids Undersampling
 ![UnderSampling.png](Images/UnderSampling.png)
 - Accuracy Score: 62%   This tells us that the model correctly predicted the outcome 62% of the time.
 - Precision: .01 for predicting high risk loans and 100% for predicting low risk loans.  These numbers tell very differenct stories.  First, it tells us the model predicted a lot of high risk loans that were not actually high risk (this is the .01 number).  The model also, however, was very good at predicting loans that were low risk as it was correct almost 100(This was rounded up from 99.6) percent of the time.
 - Sensitivity: .72 and .52.  This tells us that of the high risk loans in the data set, the model predicted high or low correctly 72 percent of the time.  On the other hand, the model was only successful at correctly predicting the low risk loans 52 percent of the time.
 
-### Random OverSampler
+### SMOTEENN Over/Under Sampling combination
 ![SMOTEENN.png](Images/SMOTEENN.png)
 - Accuracy Score: 62%   This tells us that the model correctly predicted the outcome 62% of the time.
 - Precision: .01 for predicting high risk loans and 100% for predicting low risk loans.  These numbers tell very differenct stories.  First, it tells us the model predicted a lot of high risk loans that were not actually high risk (this is the .01 number).  The model also, however, was very good at predicting loans that were low risk as it was correct almost 100(This was rounded up from 99.6) percent of the time.
 - Sensitivity: .72 and .52.  This tells us that of the high risk loans in the data set, the model predicted high or low correctly 72 percent of the time.  On the other hand, the model was only successful at correctly predicting the low risk loans 52 percent of the time.
 
-### Random OverSampler
+### Balanced Random Forest Classifier
 ![RandomForest.png](Images/RandomForest.png)
 - Accuracy Score: 62%   This tells us that the model correctly predicted the outcome 62% of the time.
 - Precision: .01 for predicting high risk loans and 100% for predicting low risk loans.  These numbers tell very differenct stories.  First, it tells us the model predicted a lot of high risk loans that were not actually high risk (this is the .01 number).  The model also, however, was very good at predicting loans that were low risk as it was correct almost 100(This was rounded up from 99.6) percent of the time.
 - Sensitivity: .72 and .52.  This tells us that of the high risk loans in the data set, the model predicted high or low correctly 72 percent of the time.  On the other hand, the model was only successful at correctly predicting the low risk loans 52 percent of the time.
 
-### Random OverSampler
+### AdaBoostClassifier
 ![AdaBoost.png](Images/AdaBoost.png)
 - Accuracy Score: 62%   This tells us that the model correctly predicted the outcome 62% of the time.
 - Precision: .01 for predicting high risk loans and 100% for predicting low risk loans.  These numbers tell very differenct stories.  First, it tells us the model predicted a lot of high risk loans that were not actually high risk (this is the .01 number).  The model also, however, was very good at predicting loans that were low risk as it was correct almost 100(This was rounded up from 99.6) percent of the time.
